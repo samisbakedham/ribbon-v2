@@ -5,6 +5,7 @@ require("dotenv").config();
 
 export const TEST_URI = {
   [CHAINID.ETH_MAINNET]: process.env.TEST_URI,
+  [CHAINID.CNDL_MAINNET]: process.env.CNDL_URI,
   [CHAINID.AVAX_MAINNET]: process.env.AVAX_URI,
   [CHAINID.AVAX_FUJI]: process.env.FUJI_URI,
 };

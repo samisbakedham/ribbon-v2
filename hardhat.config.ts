@@ -63,6 +63,13 @@ export default {
         mnemonic: process.env.KOVAN_MNEMONIC,
       },
     },
+  candle: {
+    url: process.env.CNDL_URI,
+    chainId: 534,
+    accounts: {
+      mnemonic: process.env.CNDL_MNEMONIC,
+    },
+  },
     avax: {
       url: process.env.AVAX_URI,
       chainId: 43114,
